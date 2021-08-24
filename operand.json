@@ -1,0 +1,22 @@
+{
+  "handlers": [
+    {
+      "name": "Auto-Thanks",
+      "path": "thanks.js",
+      "triggers": [
+        "Thanks!",
+        "Appreciate it!",
+        "You're the best, thanks!",
+        "Thank you!",
+        "Thanks xoxo"
+      ],
+      "threshold": 0.65
+    },
+    {
+      "name": "Fallback",
+      "path": "noop.js",
+      "triggers": [],
+      "fallback": true
+    }
+  ]
+}
