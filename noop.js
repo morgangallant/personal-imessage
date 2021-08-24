@@ -1,2 +1,4 @@
 // Do nothing.
-const handler = async (req) => {}
+const handler = async (req) => {
+    operand.log("Did nothing.");
+}
