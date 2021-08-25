@@ -4,7 +4,7 @@
       "name": "Auto-Hello",
       "path": "hello.js",
       "triggers": ["Hello", "Hey", "Sup"],
-      "threshold": 0.65
+      "threshold": 0.7
     },
     {
       "name": "Auto-Thanks",
@@ -19,7 +19,7 @@
         "Thx bb",
         "Ty"
       ],
-      "threshold": 0.65
+      "threshold": 0.7
     },
     {
       "name": "Fallback",
